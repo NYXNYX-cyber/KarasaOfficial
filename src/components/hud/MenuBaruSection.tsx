@@ -7,7 +7,8 @@ import { CONTACT } from '@/config/contact'
  * Per R2b (Juli 2026): bukan produk individual (tidak punya page detail),
  * hanya teaser menu untuk membangun antisipasi.
  *
- *  - Tiktuk: produk spesifik yang sudah dinamai owner, info menyusul.
+ *  - Citruk: produk spesifik yang sudah dinamai owner, design masih dalam
+ *    pengembangan — pantau Instagram untuk update pertama.
  *  - Opak Klasik & Opak Mini: varian opak dari PRD §2.1, tunda rilis.
  *  - Lainnya: placeholder untuk produk masa depan.
  */
@@ -21,10 +22,10 @@ interface MenuItem {
 
 const MENU_ITEMS: readonly MenuItem[] = [
   {
-    id: 'tiktuk',
-    name: 'Tiktuk',
+    id: 'citruk',
+    name: 'Citruk',
     description:
-      'Produk baru yang akan datang. Detail menyusul dari owner — pantau Instagram kami untuk update pertama.',
+      'Jajanan Sunda renyah dari beras ketan, salah satu warisan kuliner Rancaekek. Design kemasan sedang dalam pengembangan — pantau Instagram kami untuk update pertama.',
     status: 'tbd',
     emoji: '◇',
   },

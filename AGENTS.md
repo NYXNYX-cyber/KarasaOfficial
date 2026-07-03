@@ -8,9 +8,9 @@
 ## Konteks Merek & Bahasa
 - Merek: **Karasa** — jajanan tradisional Sunda (opak, lakar, citruk, emping) dari Rancaekek, Bandung, Jawa Barat.
 - Semua copy yang menghadap pengguna, microcopy, dan referensi budaya harus menghormati konteks Sunda / Jawa Barat. Motif budaya (Mega Mendung, Kujang, Pucuk Rebung, Lereng) dan palet warna Sunda didefinisikan di PRD §3 — jangan mengganti dengan palet atau motif generik.
-- PRD ditulis dalam bahasa Indonesia. Dahulukan kata-kata persis dari PRD untuk istilah produk dan merek (mis. "Lakar Kuah", "Lakar Kering", "Tiktuk") daripada menerjemahkan secara bebas.
+- PRD ditulis dalam bahasa Indonesia. Dahulukan kata-kata persis dari PRD untuk istilah produk dan merek (mis. "Lakar Kuah", "Lakar Kering", "Citruk") daripada menerjemahkan secara bebas. **Catatan:** Produk ketiga sering disebut "Tiktuk" secara internal karena miskomunikasi awal, tapi **nama resminya adalah "Citruk"** (jajanan Sunda dari beras ketan, sesuai PRD §2.1).
 - **Produk MVP aktif (R2):** Lakar Kuah (3D + image sequence), Lakar Kering (image sequence). Lakar Basah di-archive (`src/components/three/_archive/`).
-- **Menu Baru (R2b):** Tiktuk (TBD), Opak Klasik, Opak Mini — teaser, bukan produk individual.
+- **Menu Baru (R2b):** Citruk (TBD), Opak Klasik, Opak Mini — teaser, bukan produk individual.
 
 ## Stack Aktual (sudah dipasang)
 - Vite 5 + React 19 + React Three Fiber 9.6.1 + Drei 10.7 + three 0.170 + Tailwind v4 + GSAP 3.15 + Framer Motion 11.18.
@@ -27,7 +27,7 @@ Produk menentukan metode rendering. Jangan menukar keduanya:
 ## Menu Baru (R2b)
 - Section terpisah dari katalog aktif, di-render setelah KatalogSection di beranda.
 - Bukan produk individual (tidak punya `ProductId`, tidak punya page `/produk/:id`).
-- Item: Tiktuk (TBD · Menyusul), Opak Klasik (Rencana), Opak Mini (Rencana).
+- Item: **Citruk** (TBD · Design menyusul), Opak Klasik (Rencana), Opak Mini (Rencana).
 - CTA: WhatsApp general (templat `WHATSAPP_TEMPLATES.general`) + link Instagram.
 - Tambah produk ke Menu Baru: edit `MENU_ITEMS` di `src/components/hud/MenuBaruSection.tsx`.
 

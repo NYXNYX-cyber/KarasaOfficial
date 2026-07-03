@@ -24,7 +24,7 @@
 | :--: | :-- | :-- | :-- | :-- |
 | R1 | **Image sequence frame count** | 60 frame (PRD §2.2 + §5.1) | **30 frame** (override: pakai frame penuh yang tersedia) | Cukup untuk scroll-driven snap 12°/step; override: 145 frame Lakar Kuah & 240 frame Lakar Kering digunakan apa adanya dari ezgif export |
 | R2 | **Produk MVP** | 5 produk (Lakar Kuah, Lakar Basah, Opak Klasik, Opak Mini, Lakar Kering) | **2 produk aktif** (Lakar Kuah, Lakar Kering) | Permintaan owner brand; Lakar Basah di-archive, Opak varian ditunda |
-| R2b | **Slot ke-3 produk** | n/a (PRD 5 produk fixed) | **Menu Baru section** (Tiktuk + Opak Klasik + Opak Mini sebagai teaser) | Owner request: ganti placeholder Tiktuk dengan menu upcoming products yang lebih informatif |
+| R2b | **Slot ke-3 produk** | n/a (PRD 5 produk fixed) | **Menu Baru section** (Citruk + Opak Klasik + Opak Mini sebagai teaser) | Owner request: ganti placeholder Tiktuk dengan menu upcoming products yang lebih informatif. **Catatan:** "Tiktuk" adalah miskomunikasi awal — nama benar produk ketiga adalah **Citruk** (jajanan Sunda dari beras ketan, sesuai PRD §2.1). |
 | R3 | **CTA channel** | WhatsApp + Shopee + Tokopedia (PRD §6.2) | **WhatsApp + Instagram** (email di footer) | Owner belum punya toko Shopee/Tokped; fokus WhatsApp Business + Instagram `@khas.nusantara15` |
 | R4 | **Auto-rotate** | ScrollControls + auto-rotate idle | **Tidak auto-rotate** | "Tetap diam" sesuai preferensi owner — produk freeze saat user tidak interaksi |
 | R5 | **Lakar Kuah & Basah kemasan** | Pouch (PRD §2.1) | **Paper cup 360 mL** | Verifikasi via `Karasa-image/IMG_*.png` — aktualnya paper cup dengan kerupuk + saus sachet |
