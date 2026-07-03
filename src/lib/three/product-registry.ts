@@ -41,11 +41,11 @@ export const PRODUCTS: readonly Product[] = [
     id: 'lakar-kering',
     name: 'Lakar Kering',
     type: 'image-sequence',
-    tagline: 'Opak renyah dengan bumbu tradisional',
+    tagline: '',
     description:
-      'Lakar Kering adalah opak tipis renyah yang dibumbui dengan rempah Sunda pilihan. Tahan lama, cocok untuk oleh-oleh atau camilan sehari.',
+      'Camilan renyah dan rasa gurih yang autentik. Praktis dibawa dan cocok dinikmati di setiap momen.',
     longDescription:
-      'Dipanggang dengan teknik tradisional dan dikemas kering untuk menjaga kerenyahan. Setiap gigitan membawa cita rasa opak Bandung yang otentik.',
+      'Camilan renyah dan rasa gurih yang autentik. Praktis dibawa dan cocok dinikmati di setiap momen.',
     badge: 'Coming Soon · 30 Frame',
     ctaLinks: {
       whatsapp: buildWhatsAppLink('Lakar Kering', WHATSAPP_TEMPLATES.lakarKering),
