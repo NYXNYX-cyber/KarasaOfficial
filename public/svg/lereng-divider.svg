@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+  <!--
+    Motif Lereng — garis diagonal yang merepresentasikan keselarasan hidup (PRD §3.1).
+    Pattern 40×40 px yang bisa diulang sebagai background-repeat.
+    3 varian: tipis, sedang, tebal. Default: sedang (1.5 px).
+  -->
+  <g stroke="currentColor" stroke-width="1.5" fill="none">
+    <path d="M-5,15 L15,-5" />
+    <path d="M5,25 L25,5" />
+    <path d="M15,35 L35,15" />
+    <path d="M25,45 L45,25" />
+  </g>
+</svg>

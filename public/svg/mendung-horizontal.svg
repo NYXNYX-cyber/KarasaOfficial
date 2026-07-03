@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <defs>
+    <!-- Gradient Paul (#0000FF) ke Bodas (#FFFFFF) untuk efek kedalaman awan -->
+    <linearGradient id="mendungGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0000FF" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="mendungGradMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1AFF" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05" />
+    </linearGradient>
+    <linearGradient id="mendungGradLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8080FF" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 5 pita awan bertingkat, dari kecil (atas) ke besar (bawah) -->
+  <!-- Pita 1 — paling atas, paling kecil -->
+  <path
+    d="M0,30 Q40,15 80,25 T160,30 T240,25 T320,30 T400,25 T480,30 T560,25 T640,30 T720,25 T800,30 L800,55 Q760,60 720,55 T640,60 T560,55 T480,60 T400,55 T320,60 T240,55 T160,60 T80,55 T0,60 Z"
+    fill="url(#mendungGradLight)"
+  />
+
+  <!-- Pita 2 -->
+  <path
+    d="M0,75 Q50,58 100,68 T200,75 T300,68 T400,75 T500,68 T600,75 T700,68 T800,75 L800,105 Q750,112 700,105 T600,112 T500,105 T400,112 T300,105 T200,112 T100,105 T0,112 Z"
+    fill="url(#mendungGradMid)"
+  />
+
+  <!-- Pita 3 — tengah, paling dominan -->
+  <path
+    d="M0,115 Q60,95 120,108 T240,115 T360,108 T480,115 T600,108 T720,115 T800,110 L800,150 Q740,158 680,150 T560,158 T440,150 T320,158 T200,150 T80,158 T0,150 Z"
+    fill="url(#mendungGrad)"
+  />
+
+  <!-- Pita 4 -->
+  <path
+    d="M0,150 Q70,132 140,142 T280,150 T420,142 T560,150 T700,142 T800,148 L800,180 Q740,186 680,180 T560,186 T420,180 T280,186 T140,180 T0,186 Z"
+    fill="url(#mendungGradMid)"
+    opacity="0.85"
+  />
+
+  <!-- Pita 5 — paling bawah, paling lebar -->
+  <path
+    d="M0,180 Q80,165 160,172 T320,180 T480,172 T640,180 T800,175 L800,200 L0,200 Z"
+    fill="url(#mendungGrad)"
+    opacity="0.7"
+  />
+</svg>

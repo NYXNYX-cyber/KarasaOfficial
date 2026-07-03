@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!--
+    Corner ornament top-right — versi cermin (mirror horizontal & vertikal)
+    dari corner-ornament.svg. Dipasang di pojok kanan-atas hero.
+    Lebih kecil & less dense dari versi kiri-bawah.
+  -->
+  <defs>
+    <linearGradient id="ornGoldTR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4B27E" />
+      <stop offset="50%" stop-color="#B8935A" />
+      <stop offset="100%" stop-color="#8B6B3F" />
+    </linearGradient>
+  </defs>
+
+  <g stroke="url(#ornGoldTR)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Sulur utama: dari kanan-atas ke bawah-kiri -->
+    <path d="M520,0 Q450,80 380,100 Q300,120 260,180 Q220,240 180,300 Q140,360 80,400 Q40,420 0,430" stroke-width="2.5" />
+    <path d="M470,40 Q410,110 340,130 Q260,150 220,210 Q180,270 140,330 Q100,380 30,410" stroke-width="1.8" />
+    <path d="M430,80 Q380,140 310,160 Q240,180 200,230 Q160,280 120,340 Q80,390 30,420" stroke-width="1.2" />
+
+    <!-- Daun-daun -->
+    <g fill="url(#ornGoldTR)" stroke="#8B6B3F" stroke-width="0.6" opacity="0.9">
+      <path d="M380,100 Q390,80 400,95 Q390,115 380,100 Z" />
+      <path d="M310,160 Q320,140 330,155 Q320,175 310,160 Z" />
+      <path d="M220,210 Q230,190 240,205 Q230,225 220,210 Z" />
+      <path d="M140,330 Q150,310 160,325 Q150,345 140,330 Z" />
+
+      <path d="M340,130 Q345,118 353,128 Q345,138 340,130 Z" />
+      <path d="M270,180 Q275,168 283,178 Q275,188 270,180 Z" />
+      <path d="M180,290 Q185,278 193,288 Q185,298 180,290 Z" />
+      <path d="M100,370 Q105,358 113,368 Q105,378 100,370 Z" />
+    </g>
+
+    <!-- Bunga-bunga -->
+    <g fill="url(#ornGoldTR)" stroke="#8B6B3F" stroke-width="0.6">
+      <g transform="translate(420, 60)">
+        <ellipse cx="0" cy="-6" rx="2.5" ry="5" />
+        <ellipse cx="5" cy="-3" rx="2.5" ry="5" transform="rotate(60)" />
+        <ellipse cx="5" cy="3" rx="2.5" ry="5" transform="rotate(120)" />
+        <ellipse cx="0" cy="6" rx="2.5" ry="5" />
+        <ellipse cx="-5" cy="3" rx="2.5" ry="5" transform="rotate(-120)" />
+        <ellipse cx="-5" cy="-3" rx="2.5" ry="5" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="1.8" fill="#F5E8D0" />
+      </g>
+      <g transform="translate(280, 130)">
+        <ellipse cx="0" cy="-7" rx="3" ry="6" />
+        <ellipse cx="6" cy="-3.5" rx="3" ry="6" transform="rotate(60)" />
+        <ellipse cx="6" cy="3.5" rx="3" ry="6" transform="rotate(120)" />
+        <ellipse cx="0" cy="7" rx="3" ry="6" />
+        <ellipse cx="-6" cy="3.5" rx="3" ry="6" transform="rotate(-120)" />
+        <ellipse cx="-6" cy="-3.5" rx="3" ry="6" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="2.2" fill="#F5E8D0" />
+      </g>
+      <g transform="translate(150, 250)">
+        <ellipse cx="0" cy="-5" rx="2.2" ry="4.5" />
+        <ellipse cx="4.5" cy="-2.5" rx="2.2" ry="4.5" transform="rotate(60)" />
+        <ellipse cx="4.5" cy="2.5" rx="2.2" ry="4.5" transform="rotate(120)" />
+        <ellipse cx="0" cy="5" rx="2.2" ry="4.5" />
+        <ellipse cx="-4.5" cy="2.5" rx="2.2" ry="4.5" transform="rotate(-120)" />
+        <ellipse cx="-4.5" cy="-2.5" rx="2.2" ry="4.5" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="1.6" fill="#F5E8D0" />
+      </g>
+    </g>
+
+    <!-- Sparkle (lebih besar di pojok) -->
+    <g fill="url(#ornGoldTR)">
+      <g transform="translate(460, 30)" class="animate-sparkle">
+        <path d="M0,-10 L2.5,-2.5 L10,0 L2.5,2.5 L0,10 L-2.5,2.5 L-10,0 L-2.5,-2.5 Z" />
+      </g>
+      <g transform="translate(380, 90)" class="animate-sparkle" style="animation-delay: 0.5s">
+        <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" />
+      </g>
+      <g transform="translate(200, 220)" class="animate-sparkle" style="animation-delay: 1.0s">
+        <path d="M0,-6 L1.5,-1.5 L6,0 L1.5,1.5 L0,6 L-1.5,1.5 L-6,0 L-1.5,-1.5 Z" />
+      </g>
+    </g>
+
+    <!-- Dot kecil -->
+    <g fill="url(#ornGoldTR)" opacity="0.7">
+      <circle cx="430" cy="120" r="1.5" />
+      <circle cx="320" cy="180" r="2" />
+      <circle cx="240" cy="240" r="1.5" />
+      <circle cx="160" cy="320" r="2" />
+      <circle cx="80" cy="380" r="1.5" />
+    </g>
+  </g>
+</svg>

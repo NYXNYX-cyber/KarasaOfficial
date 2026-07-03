@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 800" fill="none">
+  <defs>
+    <linearGradient id="mendungGradV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0000FF" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="mendungGradMidV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A1AFF" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- 5 pita awan vertikal bertingkat -->
+  <path
+    d="M30,0 Q15,40 25,80 T30,160 T25,240 T30,320 T25,400 T30,480 T25,560 T30,640 T25,720 T30,800 L55,800 Q60,760 55,720 T60,640 T55,560 T60,480 T55,400 T60,320 T55,240 T60,160 T55,80 T60,0 Z"
+    fill="url(#mendungGradV)"
+    opacity="0.6"
+  />
+
+  <path
+    d="M75,0 Q58,50 68,100 T75,200 T68,300 T75,400 T68,500 T75,600 T68,700 T75,800 L105,800 Q112,750 105,700 T112,600 T105,500 T112,400 T105,300 T112,200 T105,100 T112,0 Z"
+    fill="url(#mendungGradMidV)"
+  />
+
+  <path
+    d="M115,0 Q95,60 108,120 T115,240 T108,360 T115,480 T108,600 T115,720 T110,800 L150,800 Q158,740 150,720 T158,600 T150,480 T158,360 T150,240 T158,120 T150,0 Z"
+    fill="url(#mendungGradV)"
+  />
+
+  <path
+    d="M150,0 Q132,70 142,140 T150,280 T142,420 T150,560 T142,700 T150,800 L180,800 Q186,750 180,700 T186,560 T180,420 T186,280 T180,140 T186,0 Z"
+    fill="url(#mendungGradMidV)"
+    opacity="0.85"
+  />
+
+  <path
+    d="M180,0 Q165,80 172,160 T180,320 T172,480 T180,640 T175,800 L200,800 L200,0 Z"
+    fill="url(#mendungGradV)"
+    opacity="0.7"
+  />
+</svg>

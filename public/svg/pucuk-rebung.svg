@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!--
+    Motif Pucuk Rebung — pucuk bambu, lambang pertumbuhan dan harapan baru (PRD §3.1).
+    Varian: kanan (default). Untuk varian kiri, mirror di CSS via transform: scaleX(-1).
+    Dipakai sebagai ikon scroll progress & bullet nav.
+  -->
+  <path
+    d="M5,20 L12,4 L19,20 L17,20 L12,12 L7,20 Z"
+    fill="currentColor"
+  />
+  <line x1="12" y1="14" x2="12" y2="20" stroke="white" stroke-width="1" />
+</svg>

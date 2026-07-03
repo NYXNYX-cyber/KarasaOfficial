@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 80" fill="none">
+  <!--
+    Border Lereng horizontal — pattern garis diagonal Sunda yang
+    merepresentasikan keselarasan hidup (PRD §3.1).
+    Diselingi motif Mega Mendung mini & Pucuk Rebung di interval tertentu.
+    Pattern 1600×80 px, repeat horizontal.
+  -->
+  <defs>
+    <pattern id="lerengPattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <!-- 4 garis diagonal paralel -->
+      <g stroke="#8B6B3F" stroke-width="1" fill="none" opacity="0.5">
+        <line x1="0" y1="20" x2="20" y2="0" />
+        <line x1="20" y1="40" x2="40" y2="20" />
+        <line x1="40" y1="60" x2="60" y2="40" />
+        <line x1="60" y1="80" x2="80" y2="60" />
+        <line x1="-20" y1="20" x2="0" y2="0" />
+        <line x1="-20" y1="40" x2="20" y2="0" />
+      </g>
+    </pattern>
+
+    <linearGradient id="lerengFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F5E8D0" stop-opacity="1" />
+      <stop offset="15%" stop-color="#F5E8D0" stop-opacity="0" />
+      <stop offset="85%" stop-color="#F5E8D0" stop-opacity="0" />
+      <stop offset="100%" stop-color="#F5E8D0" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pattern fill -->
+  <rect x="0" y="0" width="1600" height="80" fill="url(#lerengPattern)" />
+
+  <!-- Pucuk Rebung di tengah pattern setiap 200px -->
+  <g fill="#B8935A" opacity="0.6">
+    <g transform="translate(200, 40)">
+      <path d="M-6,8 L0,-6 L6,8 L4,8 L0,-2 L-4,8 Z" />
+    </g>
+    <g transform="translate(600, 40)">
+      <path d="M-6,8 L0,-6 L6,8 L4,8 L0,-2 L-4,8 Z" />
+    </g>
+    <g transform="translate(1000, 40)">
+      <path d="M-6,8 L0,-6 L6,8 L4,8 L0,-2 L-4,8 Z" />
+    </g>
+    <g transform="translate(1400, 40)">
+      <path d="M-6,8 L0,-6 L6,8 L4,8 L0,-2 L-4,8 Z" />
+    </g>
+  </g>
+
+  <!-- Mega Mendung mini (awan bergelombang) di beberapa titik -->
+  <g stroke="#8B6B3F" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M380,40 Q390,32 400,36 Q410,30 420,36 Q430,32 440,40" />
+    <path d="M780,40 Q790,32 800,36 Q810,30 820,36 Q830,32 840,40" />
+    <path d="M1180,40 Q1190,32 1200,36 Q1210,30 1220,36 Q1230,32 1240,40" />
+  </g>
+
+  <!-- Fade di tepi agar menyatu dengan background -->
+  <rect x="0" y="0" width="1600" height="80" fill="url(#lerengFade)" />
+</svg>

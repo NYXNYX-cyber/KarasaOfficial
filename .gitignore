@@ -1,0 +1,35 @@
+node_modules
+dist
+dist-ssr
+.vite
+.DS_Store
+*.local
+*.log
+
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+public/models
+public/sequences
+public/draco-gltf
+public/basis
+public/_redirects
+public/_headers
+
+# Asset sumber produk (referensi visual, bukan deliverable)
+Karasa-image/
+
+# Backup internal
+.archive/

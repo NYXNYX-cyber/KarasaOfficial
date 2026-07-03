@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!--
+    Corner ornament Kujang + floral — versi dekoratif untuk hero Karasa.
+    Menggabungkan siluet Kujang (senjata Sunda) dengan sulur, daun, dan bunga
+    dalam gaya ornamental khas heritage Indonesia.
+    Cocok untuk pojok bawah-kiri / kanan-atas halaman.
+    Warna: emas gradient.
+  -->
+
+  <defs>
+    <linearGradient id="ornGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4B27E" />
+      <stop offset="50%" stop-color="#B8935A" />
+      <stop offset="100%" stop-color="#8B6B3F" />
+    </linearGradient>
+  </defs>
+
+  <g stroke="url(#ornGold)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ====== Sulur utama — lengkung dari bawah-kiri ke atas-kanan ====== -->
+
+    <!-- Sulur 1 (paling luar, lengkung besar) -->
+    <path d="M-20,500 Q50,400 120,380 Q200,360 240,300 Q280,240 320,180 Q360,120 420,80 Q460,60 500,50" stroke-width="2.5" />
+
+    <!-- Sulur 2 (sedikit ke dalam) -->
+    <path d="M30,520 Q90,440 160,400 Q230,360 270,300 Q310,240 350,180 Q390,120 450,90" stroke-width="1.8" />
+
+    <!-- Sulur 3 (lebih dalam) -->
+    <path d="M80,500 Q140,440 200,400 Q260,360 290,300 Q320,240 360,180 Q400,120 470,100" stroke-width="1.2" />
+
+    <!-- ====== Daun-daun pada sulur ====== -->
+    <g fill="url(#ornGold)" stroke="#8B6B3F" stroke-width="0.6" opacity="0.9">
+      <!-- Daun besar di sulur 1 -->
+      <path d="M100,400 Q90,380 100,360 Q120,365 130,385 Q120,405 100,400 Z" />
+      <path d="M170,390 Q160,370 175,355 Q195,360 200,380 Q190,400 170,390 Z" />
+      <path d="M240,300 Q230,280 245,265 Q265,270 270,290 Q260,310 240,300 Z" />
+      <path d="M310,200 Q300,180 315,165 Q335,170 340,190 Q330,210 310,200 Z" />
+      <path d="M390,110 Q380,90 395,75 Q415,80 420,100 Q410,120 390,110 Z" />
+
+      <!-- Daun kecil pada sulur 2 -->
+      <path d="M150,400 Q145,388 153,378 Q165,380 168,392 Q160,402 150,400 Z" />
+      <path d="M220,330 Q215,318 223,308 Q235,310 238,322 Q230,332 220,330 Z" />
+      <path d="M290,230 Q285,218 293,208 Q305,210 308,222 Q300,232 290,230 Z" />
+      <path d="M370,140 Q365,128 373,118 Q385,120 388,132 Q380,142 370,140 Z" />
+
+      <!-- Daun pada sulur 3 -->
+      <path d="M190,400 Q185,388 193,378 Q205,380 208,392 Q200,402 190,400 Z" />
+      <path d="M260,320 Q255,308 263,298 Q275,300 278,312 Q270,322 260,320 Z" />
+      <path d="M330,220 Q325,208 333,198 Q345,200 348,212 Q340,222 330,220 Z" />
+    </g>
+
+    <!-- ====== Bunga-bunga kecil ====== -->
+    <g fill="url(#ornGold)" stroke="#8B6B3F" stroke-width="0.6">
+      <!-- Bunga 6-petal di posisi tertentu -->
+      <g transform="translate(70, 440)">
+        <ellipse cx="0" cy="-7" rx="3" ry="6" />
+        <ellipse cx="6" cy="-3.5" rx="3" ry="6" transform="rotate(60)" />
+        <ellipse cx="6" cy="3.5" rx="3" ry="6" transform="rotate(120)" />
+        <ellipse cx="0" cy="7" rx="3" ry="6" />
+        <ellipse cx="-6" cy="3.5" rx="3" ry="6" transform="rotate(-120)" />
+        <ellipse cx="-6" cy="-3.5" rx="3" ry="6" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="2" fill="#F5E8D0" />
+      </g>
+
+      <g transform="translate(210, 380)">
+        <ellipse cx="0" cy="-6" rx="2.5" ry="5" />
+        <ellipse cx="5" cy="-3" rx="2.5" ry="5" transform="rotate(60)" />
+        <ellipse cx="5" cy="3" rx="2.5" ry="5" transform="rotate(120)" />
+        <ellipse cx="0" cy="6" rx="2.5" ry="5" />
+        <ellipse cx="-5" cy="3" rx="2.5" ry="5" transform="rotate(-120)" />
+        <ellipse cx="-5" cy="-3" rx="2.5" ry="5" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="1.8" fill="#F5E8D0" />
+      </g>
+
+      <g transform="translate(290, 250)">
+        <ellipse cx="0" cy="-7" rx="3" ry="6" />
+        <ellipse cx="6" cy="-3.5" rx="3" ry="6" transform="rotate(60)" />
+        <ellipse cx="6" cy="3.5" rx="3" ry="6" transform="rotate(120)" />
+        <ellipse cx="0" cy="7" rx="3" ry="6" />
+        <ellipse cx="-6" cy="3.5" rx="3" ry="6" transform="rotate(-120)" />
+        <ellipse cx="-6" cy="-3.5" rx="3" ry="6" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="2.2" fill="#F5E8D0" />
+      </g>
+
+      <g transform="translate(380, 130)">
+        <ellipse cx="0" cy="-6" rx="2.5" ry="5" />
+        <ellipse cx="5" cy="-3" rx="2.5" ry="5" transform="rotate(60)" />
+        <ellipse cx="5" cy="3" rx="2.5" ry="5" transform="rotate(120)" />
+        <ellipse cx="0" cy="6" rx="2.5" ry="5" />
+        <ellipse cx="-5" cy="3" rx="2.5" ry="5" transform="rotate(-120)" />
+        <ellipse cx="-5" cy="-3" rx="2.5" ry="5" transform="rotate(-60)" />
+        <circle cx="0" cy="0" r="1.8" fill="#F5E8D0" />
+      </g>
+    </g>
+
+    <!-- ====== Kujang silhouette (di tengah-atas) ====== -->
+    <g fill="url(#ornGold)" stroke="#8B6B3F" stroke-width="1" transform="translate(380, 80) rotate(-25)">
+      <!-- Gagang kayu -->
+      <rect x="-6" y="50" width="12" height="40" rx="2" fill="#5C3A21" stroke="#3D2817" />
+      <!-- Haluan / bilah utama -->
+      <path d="M0,-30
+               C8,-20 12,-8 12,5
+               C12,15 8,22 4,28
+               C8,35 10,42 8,50
+               L0,50
+               L0,-30 Z" />
+      <!-- Sayap kanan (silih) -->
+      <path d="M0,-5
+               C12,-8 24,-2 30,10
+               C32,18 28,26 22,28
+               C18,28 12,24 8,18
+               C4,10 0,2 0,-5 Z" />
+      <!-- Sayap kiri (silih) -->
+      <path d="M0,-5
+               C-12,-8 -24,-2 -30,10
+               C-32,18 -28,26 -22,28
+               C-18,28 -12,24 -8,18
+               C-4,10 0,2 0,-5 Z" />
+      <!-- Lob pamor bawah -->
+      <path d="M0,28 C6,30 10,36 12,42 C12,48 8,50 4,50 L0,50 Z" />
+      <path d="M0,28 C-6,30 -10,36 -12,42 C-12,48 -8,50 -4,50 L0,50 Z" />
+    </g>
+
+    <!-- ====== Titik-titik kecil untuk aksen ====== -->
+    <g fill="url(#ornGold)" opacity="0.7">
+      <circle cx="50" cy="380" r="2" />
+      <circle cx="130" cy="350" r="1.5" />
+      <circle cx="220" cy="320" r="2" />
+      <circle cx="270" cy="260" r="1.5" />
+      <circle cx="350" cy="160" r="2" />
+      <circle cx="420" cy="60" r="1.5" />
+      <circle cx="80" cy="460" r="1.8" />
+      <circle cx="160" cy="420" r="1.5" />
+    </g>
+
+  </g>
+</svg>
