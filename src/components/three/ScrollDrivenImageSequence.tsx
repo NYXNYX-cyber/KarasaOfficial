@@ -42,7 +42,18 @@ export function ScrollDrivenImageSequence({
   const [currentFrame, setCurrentFrame] = useState(0)
   const [loadedCount, setLoadedCount] = useState(0)
 
-  const heightVh = scrollHeightVh ?? Math.max(220, config.count * 1.5)
+  // Deteksi mobile/low-end — harus sebelum heightVh.
+  const isMobileRef = useRef(false)
+  if (isMobileRef.current === false && typeof window !== 'undefined') {
+    isMobileRef.current =
+      window.matchMedia('(max-width: 640px), (hover: none) and (pointer: coarse)').matches
+  }
+
+  const heightVh = scrollHeightVh ?? (
+    isMobileRef.current
+      ? Math.max(500, config.count * 16)
+      : Math.max(220, config.count * 1.5)
+  )
   const startIndex = config.startIndex ?? 0
   const padWidth = config.padWidth ?? 3
 
@@ -50,14 +61,6 @@ export function ScrollDrivenImageSequence({
     const fileIndex = startIndex + i
     const padded = String(fileIndex).padStart(padWidth, '0')
     return `${config.basePath}${padded}.${config.ext}`
-  }
-
-  // Deteksi mobile/low-end: preload lebih sedikit, idle callback lebih jarang.
-  // Saved RAM ~50% di low-end device.
-  const isMobileRef = useRef(false)
-  if (isMobileRef.current === false && typeof window !== 'undefined') {
-    isMobileRef.current =
-      window.matchMedia('(max-width: 640px), (hover: none) and (pointer: coarse)').matches
   }
 
   // === Preload frames ===
