@@ -18,9 +18,9 @@ export const PRODUCTS: readonly Product[] = [
     type: '3d',
     tagline: 'Kerupuk opak dengan kuah santan hangat',
     description:
-      'Lakar Kuah adalah paper cup 360 mL berisi kerupuk opak renyah yang disajikan dengan kuah santan hangat berbumbu tradisional Sunda. Disertai saus sachet khas dan sendok kayu.',
+      'Perpaduan lakar kenyal dengan kuah kaldu gurih, menciptakan sajian hangat yang praktis, mengenyangkan, siap menemani kamu kapanpun dan dimanapun!',
     longDescription:
-      'Dibuat dari tepung tapioca pilihan dan kuah santan yang dimasak dengan resep keluarga Rancaekek. Sajian hangat yang pas untuk segala suasana.',
+      'Perpaduan lakar kenyal dengan kuah kaldu gurih, menciptakan sajian hangat yang praktis, mengenyangkan, siap menemani kamu kapanpun dan dimanapun!',
     badge: 'Hero · 3D + 30 Frame',
     ctaLinks: {
       whatsapp: buildWhatsAppLink('Lakar Kuah', WHATSAPP_TEMPLATES.lakarKuah),
