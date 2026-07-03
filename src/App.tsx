@@ -17,7 +17,7 @@ const ProductProfile = lazy(() =>
   import('@/components/pages/ProductProfile').then((m) => ({ default: m.ProductProfile })),
 )
 
-const PRODUCT_IDS: readonly ProductId[] = ['lakar-kuah', 'lakar-kering']
+const PRODUCT_IDS: readonly ProductId[] = ['lakar-kuah-keju', 'lakar-kering']
 
 function ProfileFallback() {
   return (
@@ -52,8 +52,8 @@ export function App() {
  * HomePage — hero Three.js + katalog + cerita + footer.
  */
 function HomePage() {
-  const heroProduct = getProduct('lakar-kuah')
-  const heroWhatsApp = buildWhatsAppLink(heroProduct.name, WHATSAPP_TEMPLATES.lakarKuah)
+  const heroProduct = getProduct('lakar-kuah-keju')
+  const heroWhatsApp = buildWhatsAppLink(heroProduct.name, WHATSAPP_TEMPLATES.lakarKuahKeju)
 
   return (
     <main className="relative min-h-svh overflow-x-clip bg-krem text-coklat">
@@ -221,60 +221,31 @@ function HomePage() {
       {/* ==== MENU BARU: teaser produk yang akan datang (R2b) ==== */}
       <MenuBaruSection />
 
-      {/* ==== Cerita — closing CTA + story ==== */}
+      {/* ==== Coming Soon — closing CTA ==== */}
       <section
         id="cerita"
         className="relative z-10 overflow-hidden border-y border-emas-muda/30 bg-krem-tua/40 py-20 sm:py-28"
       >
         <div className="relative mx-auto max-w-3xl px-6 text-center">
-          <span className="inline-block px-3 py-1 mb-4 text-xs uppercase tracking-[0.3em] text-emas-tua border border-emas-muda/60 rounded-full bg-krem-muda/60">
-            Cerita Kami
-          </span>
-
-          <h2 className="font-karasa text-4xl sm:text-6xl text-coklat">Old but Gold</h2>
+          <h2 className="font-karasa text-4xl sm:text-6xl text-coklat">
+            Something Delicious<br />is Coming...
+          </h2>
 
           <p className="mt-6 text-lg text-coklat-muda leading-relaxed">
-            Warisan rasa Sunda yang telah melintasi generasi — opak, lakar, citruk, emping —
-            dikemas ulang untuk Gen Z tanpa menghilangkan cita rasa asli.
+            Don&apos;t miss out! Be the first to know when this product officially drops.
           </p>
 
-          <p className="mt-4 text-base text-coklat-sangat-muda italic">
-            &ldquo;Classic but Fresh&rdquo;
+          <p className="mt-8 text-base text-coklat-sangat-muda">
+            Contact Us :{' '}
+            <a
+              href={`https://wa.me/${CONTACT.whatsappPhone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emas-tua hover:text-emas underline-offset-2 hover:underline font-semibold"
+            >
+              082221116142
+            </a>
           </p>
-
-          <div className="mt-10 flex flex-col sm:flex-row gap-3 items-center justify-center">
-            <a
-              href={heroWhatsApp}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                inline-flex items-center justify-center gap-2
-                px-6 py-3 rounded-full
-                bg-emas text-coklat font-semibold text-sm sm:text-base
-                shadow-md transition-all duration-200
-                hover:bg-emas-tua hover:shadow-lg hover:-translate-y-0.5
-                focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emas-tua
-              "
-            >
-              Hubungi via WhatsApp
-            </a>
-            <a
-              href={CONTACT.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                inline-flex items-center justify-center gap-2
-                px-6 py-3 rounded-full
-                border border-emas-muda text-coklat bg-krem-muda/40
-                font-medium text-sm sm:text-base
-                transition-all duration-200
-                hover:bg-krem-muda hover:border-emas-tua
-                focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emas-tua
-              "
-            >
-              Lihat di Instagram
-            </a>
-          </div>
         </div>
       </section>
 

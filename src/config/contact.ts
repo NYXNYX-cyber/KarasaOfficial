@@ -1,11 +1,13 @@
 export const CONTACT = {
   brand: 'Karasa',
   brandFull: 'Karasa · Khas Nusantara',
-  whatsappPhone: '6281563339275',
-  whatsappDisplay: '+62 815-6333-9275',
-  instagramHandle: 'khas.nusantara15',
-  instagramUrl: 'https://instagram.com/khas.nusantara15',
-  email: 'khas.nusantara15@gmail.com',
+  whatsappPhone: '6282221116142',
+  whatsappDisplay: '+62 822-2111-6142',
+  instagramHandle: 'karasa.local',
+  instagramUrl: 'https://instagram.com/karasa.local',
+  tiktokHandle: '@karasa.local',
+  tiktokUrl: 'https://tiktok.com/@karasa.local',
+  email: 'karasa.local@gmail.com',
   location: 'Rancaekek, Bandung, Jawa Barat',
 } as const
 

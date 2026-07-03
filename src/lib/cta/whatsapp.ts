@@ -3,7 +3,7 @@ import { CONTACT } from '@/config/contact'
 /**
  * Bangun deep-link WhatsApp Business dengan pesan templat.
  * Format resmi: https://wa.me/<intl>?text=<urlencoded>
- * Nomor +62 815-6333-9275 → 6281563339275 (tanpa +, tanpa leading 0).
+ * Nomor +62 822-2111-6142 → 6282221116142 (tanpa +, tanpa leading 0).
  *
  * Per R3: tidak ada checkout di aplikasi, CTA = WhatsApp.
  */
@@ -17,10 +17,10 @@ export function buildWhatsAppLink(productName: string, note?: string): string {
 }
 
 export const WHATSAPP_TEMPLATES = {
-  lakarKuah: 'Halo Karasa, saya tertarik dengan Lakar Kuah. Apakah masih tersedia?',
+  lakarKuahKeju: 'Halo Karasa, saya tertarik dengan Lakar Kuah Keju. Apakah masih tersedia?',
   lakarKering:
     'Halo Karasa, saya tertarik dengan Lakar Kering. Apakah masih tersedia?',
-  tiktuk:
-    'Halo Karasa, saya ingin tahu lebih lanjut tentang Tiktuk (produk yang akan datang).',
+  citruk:
+    'Halo Karasa, saya ingin tahu lebih lanjut tentang Citruk (produk yang akan datang).',
   general: 'Halo Karasa, saya ingin bertanya tentang produk Karasa.',
 } as const

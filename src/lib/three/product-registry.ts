@@ -13,20 +13,20 @@ import { buildInstagramLink } from '@/lib/cta/instagram'
  */
 export const PRODUCTS: readonly Product[] = [
   {
-    id: 'lakar-kuah',
-    name: 'Lakar Kuah',
+    id: 'lakar-kuah-keju',
+    name: 'Lakar Kuah Keju',
     type: '3d',
     tagline: '',
     description:
-      'Perpaduan lakar kenyal dengan kuah kaldu gurih, menciptakan sajian hangat yang praktis, mengenyangkan, siap menemani kamu kapanpun dan dimanapun!',
+      'Inovasi lakar khas linggar yang dipadukan dengan kuah keju creamy bercita rasa gurih. menghadirkan sensasi hangat dengan sentuhan modern.',
     longDescription:
-      'Perpaduan lakar kenyal dengan kuah kaldu gurih, menciptakan sajian hangat yang praktis, mengenyangkan, siap menemani kamu kapanpun dan dimanapun!',
+      'Inovasi lakar khas linggar yang dipadukan dengan kuah keju creamy bercita rasa gurih. menghadirkan sensasi hangat dengan sentuhan modern.',
     badge: 'Hero · 3D + 30 Frame',
     ctaLinks: {
-      whatsapp: buildWhatsAppLink('Lakar Kuah', WHATSAPP_TEMPLATES.lakarKuah),
-      instagram: buildInstagramLink('lakar-kuah'),
+      whatsapp: buildWhatsAppLink('Lakar Kuah Keju', WHATSAPP_TEMPLATES.lakarKuahKeju),
+      instagram: buildInstagramLink('lakar-kuah-keju'),
     },
-    /** Image sequence 30 frame WebP untuk profile page (/produk/lakar-kuah). */
+    /** Image sequence 30 frame WebP untuk profile page (/produk/lakar-kuah-keju). */
     frameConfig: {
       basePath: '/seq/lakar-kuah/frame_',
       count: 30,

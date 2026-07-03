@@ -1,4 +1,4 @@
-export type ProductId = 'lakar-kuah' | 'lakar-kering'
+export type ProductId = 'lakar-kuah-keju' | 'lakar-kering'
 
 export type ProductType = '3d' | 'image-sequence' | 'placeholder'
 

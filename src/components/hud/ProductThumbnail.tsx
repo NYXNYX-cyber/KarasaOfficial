@@ -22,12 +22,12 @@ export function ProductThumbnail({
   className = 'w-full h-full',
   fit = 'cover',
 }: ProductThumbnailProps) {
-  if (productId === 'lakar-kuah') {
+  if (productId === 'lakar-kuah-keju') {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
         src="/img/lakar-kuah.jpg"
-        alt="Foto produk Lakar Kuah"
+        alt="Foto produk Lakar Kuah Keju"
         loading="lazy"
         decoding="async"
         className={`${className} object-${fit} drop-shadow-lg`}

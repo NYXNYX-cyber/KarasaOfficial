@@ -7,10 +7,8 @@ import { CONTACT } from '@/config/contact'
  * Per R2b (Juli 2026): bukan produk individual (tidak punya page detail),
  * hanya teaser menu untuk membangun antisipasi.
  *
- *  - Citruk: produk spesifik yang sudah dinamai owner, design masih dalam
- *    pengembangan — pantau Instagram untuk update pertama.
- *  - Opak Klasik & Opak Mini: varian opak dari PRD §2.1, tunda rilis.
- *  - Lainnya: placeholder untuk produk masa depan.
+ *  - Citruk: camilan tradisional khas Tasikmalaya, design kemasan masih
+ *    dalam pengembangan.
  */
 interface MenuItem {
   id: string
@@ -25,25 +23,9 @@ const MENU_ITEMS: readonly MenuItem[] = [
     id: 'citruk',
     name: 'Citruk',
     description:
-      'Jajanan Sunda renyah dari beras ketan, salah satu warisan kuliner Rancaekek. Design kemasan sedang dalam pengembangan — pantau Instagram kami untuk update pertama.',
+      'Camilan tradisional khas Tasikmalaya dengan tekstur renyah dan cita rasa gurih yang khas. Dikemas praktis sehingga cocok dinikmati kapan saja, baik sebagai teman bersantai maupun saat bepergian.',
     status: 'tbd',
     emoji: '◇',
-  },
-  {
-    id: 'opak-klasik',
-    name: 'Opak Klasik',
-    description:
-      'Opak original dengan ketebalan tradisional, cocok untuk camilan santai atau suguhan tamu.',
-    status: 'planned',
-    emoji: '◯',
-  },
-  {
-    id: 'opak-mini',
-    name: 'Opak Mini',
-    description:
-      'Versi mini opak yang renyah, pas untuk sekali gigit. Cocok untuk oleh-oleh dalam porsi kecil.',
-    status: 'planned',
-    emoji: '◌',
   },
 ] as const
 
