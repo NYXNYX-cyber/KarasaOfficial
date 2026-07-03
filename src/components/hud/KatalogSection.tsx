@@ -26,14 +26,16 @@ export function KatalogSection() {
             Katalog
           </span>
           <h2 className="font-karasa text-4xl sm:text-6xl text-coklat">
-            Pilih Jajananmu
+            Karasa
           </h2>
           <p className="mt-4 font-karasa italic text-lg sm:text-xl text-coklat-muda">
-            Dua rasa, satu warisan
+            Old but gold, classic but fresh
           </p>
-          <p className="mt-3 text-sm sm:text-base text-coklat-sangat-muda max-w-2xl mx-auto">
-            Klik salah satu untuk membuka profil produk — lihat sequence 360° interaktif
-            geser-scroll atau info lengkap.
+          <p className="mt-3 text-sm sm:text-base text-coklat-sangat-muda max-w-2xl mx-auto leading-relaxed">
+            Brand makanan tradisional yang lahir dari semangat anak bangsa untuk melestarikan
+            dan memodernisasi kuliner khas Indonesia, khususnya dari daerah Jawa Barat. Karasa
+            hadir sebagai bentuk inovasi dari generasi muda untuk membawa makanan tradisional ke
+            tengah tren masa kini tanpa mengubah cita rasa aslinya.
           </p>
         </div>
 
