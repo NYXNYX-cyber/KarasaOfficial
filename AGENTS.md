@@ -41,7 +41,7 @@ Produk menentukan metode rendering. Jangan menukar keduanya:
 
 ## Kontrol Kamera (PRD §5.2 + R4)
 - `OrbitControls` harus memiliki `minPolarAngle` / `maxPolarAngle` yang dikunci agar kamera tidak dapat menukik ke bawah pedestal Kujang.
-- **`autoRotate={false}`** (R4) — produk tetap diam, tidak ada idle auto-rotate. User-driven via drag atau scroll-driven untuk image sequence.
+- **`autoRotate={true}`** (override R4 — permintaan owner Juli 2026) — produk berputar terus-menerus stabil. User bisa override via drag. `autoRotateSpeed={4}`.
 - Transisi kamera antar-produk menggunakan `<ScrollControls>` Drei di sepanjang spline (`CatmullRomCurve3`) — jangan hard-cut antar produk.
 - **Pola 4 anchor points:** Hero → Lakar Kering → Tiktuk → Cerita (closing).
 

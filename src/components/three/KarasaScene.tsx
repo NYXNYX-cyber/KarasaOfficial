@@ -1,4 +1,5 @@
 import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
 import { ACESFilmicToneMapping, Color } from 'three'
 import { Suspense } from 'react'
 
@@ -8,16 +9,10 @@ import { LakarKuah } from './LakarKuah'
 import { PedestalKujang } from './PedestalKujang'
 
 /**
- * KarasaScene — viewer 3D STATIS untuk hero section.
- * HANYA menampilkan Lakar Kuah di atas pedestal Kujang. Tanpa OrbitControls
- * (bukan drag-to-rotate) — sesuai permintaan: hero adalah visual diam yang
- * TIDAK menangkap wheel event, sehingga page scroll berjalan natural
- * melewati area ini.
- *
- * Catatan:
- *  - autoRotate={false} (R4) — produk tetap diam.
- *  - Tanpa OrbitControls = tanpa wheel/pointer capture = page scroll mulus.
- *  - User tidak bisa memutar model di hero (interaksi dipindah ke profile page).
+ * KarasaScene — viewer 3D untuk hero section.
+ * Menampilkan Lakar Kuah Keju di atas pedestal Kujang dengan OrbitControls
+ * auto-rotate. User dapat drag untuk memutar, scroll halaman tetap natural
+ * karena OrbitControls tidak menangkap wheel event.
  */
 export function KarasaScene() {
   return (
@@ -45,6 +40,16 @@ export function KarasaScene() {
       >
         <AdaptiveQuality>
           <LightingSetup />
+
+          <OrbitControls
+            autoRotate
+            autoRotateSpeed={4}
+            enableZoom={false}
+            enablePan={false}
+            minPolarAngle={Math.PI / 4}
+            maxPolarAngle={Math.PI / 2.2}
+            target={[0, 0.8, 0]}
+          />
 
           <Suspense fallback={null}>
             <group position={[0, 0, 0]}>
