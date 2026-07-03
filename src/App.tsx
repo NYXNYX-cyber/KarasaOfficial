@@ -17,7 +17,7 @@ const ProductProfile = lazy(() =>
   import('@/components/pages/ProductProfile').then((m) => ({ default: m.ProductProfile })),
 )
 
-const PRODUCT_IDS: readonly ProductId[] = ['lakar-kuah-keju', 'lakar-kering']
+const PRODUCT_IDS: readonly ProductId[] = ['lakar-kuah-keju', 'lakar-kuah', 'lakar-kering']
 
 function ProfileFallback() {
   return (

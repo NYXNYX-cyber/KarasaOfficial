@@ -35,6 +35,19 @@ export function ProductThumbnail({
     )
   }
 
+  if (productId === 'lakar-kuah') {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src="/img/lakarkuahori.png"
+        alt="Foto produk Lakar Kuah"
+        loading="lazy"
+        decoding="async"
+        className={`${className} object-${fit} drop-shadow-lg`}
+      />
+    )
+  }
+
   // Lakar Kering — pakai foto PNG baru (362×512)
   return (
     // eslint-disable-next-line @next/next/no-img-element

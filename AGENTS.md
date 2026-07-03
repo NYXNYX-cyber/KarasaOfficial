@@ -9,7 +9,7 @@
 - Merek: **Karasa** — jajanan tradisional Sunda (opak, lakar, citruk, emping) dari Rancaekek, Bandung, Jawa Barat.
 - Semua copy yang menghadap pengguna, microcopy, dan referensi budaya harus menghormati konteks Sunda / Jawa Barat. Motif budaya (Mega Mendung, Kujang, Pucuk Rebung, Lereng) dan palet warna Sunda didefinisikan di PRD §3 — jangan mengganti dengan palet atau motif generik.
 - PRD ditulis dalam bahasa Indonesia. Dahulukan kata-kata persis dari PRD untuk istilah produk dan merek (mis. "Lakar Kuah", "Lakar Kering", "Citruk") daripada menerjemahkan secara bebas. **Catatan:** Produk ketiga sering disebut "Tiktuk" secara internal karena miskomunikasi awal, tapi **nama resminya adalah "Citruk"** (jajanan Sunda dari beras ketan, sesuai PRD §2.1).
-- **Produk MVP aktif (R2):** Lakar Kuah (3D + image sequence), Lakar Kering (image sequence). Lakar Basah di-archive (`src/components/three/_archive/`).
+- **Produk MVP aktif (R2):** Lakar Kuah Keju (3D + image sequence), Lakar Kuah (image sequence), Lakar Kering (image sequence). Lakar Basah di-archive (`src/components/three/_archive/`).
 - **Menu Baru (R2b):** Citruk (TBD), Opak Klasik, Opak Mini — teaser, bukan produk individual.
 
 ## Stack Aktual (sudah dipasang)
@@ -19,8 +19,8 @@
 
 ## Aturan Rendering Hybrid (jangan dilanggar, R6)
 Produk menentukan metode rendering. Jangan menukar keduanya:
-- **WebGL 3D (R3F)**: Lakar Kuah (dengan X-Ray Mode) — di-render di hero beranda.
-- **Image sequence (PRD §5.1, scroll-driven)**: Lakar Kuah (145 frame) & Lakar Kering (240 frame) — di-render di `/produk/:id`.
+- **WebGL 3D (R3F)**: Lakar Kuah Keju (dengan X-Ray Mode) — di-render di hero beranda.
+- **Image sequence (PRD §5.1, scroll-driven)**: Lakar Kuah Keju (145→30 frame), Lakar Kuah (240→30 frame) & Lakar Kering (240→30 frame) — di-render di `/produk/:id`.
 - **Menu Baru (R2b)**: daftar produk upcoming (Tiktuk, Opak Klasik, Opak Mini) — teaser statis, bukan produk individual.
 - Pemisahan ini adalah keputusan performa GPU seluler (PRD §2, §8.2). Jangan membuat model 3D untuk Lakar Kering, dan jangan me-render rotasi produk 3D sebagai image sequence.
 

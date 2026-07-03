@@ -20,6 +20,8 @@ export const WHATSAPP_TEMPLATES = {
   lakarKuahKeju: 'Halo Karasa, saya tertarik dengan Lakar Kuah Keju. Apakah masih tersedia?',
   lakarKering:
     'Halo Karasa, saya tertarik dengan Lakar Kering. Apakah masih tersedia?',
+  lakarKuah:
+    'Halo Karasa, saya tertarik dengan Lakar Kuah original. Apakah masih tersedia?',
   citruk:
     'Halo Karasa, saya ingin tahu lebih lanjut tentang Citruk (produk yang akan datang).',
   general: 'Halo Karasa, saya ingin bertanya tentang produk Karasa.',
