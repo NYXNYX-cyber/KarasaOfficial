@@ -10,6 +10,9 @@ dist-ssr
 .env.local
 .env.*.local
 
+# TypeScript build cache
+*.tsbuildinfo
+
 # Editor
 .vscode/*
 !.vscode/extensions.json
@@ -20,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Build artifacts
+# Build artifacts (PRD §7 — Draco, KTX2 not in MVP)
 public/models
 public/sequences
 public/draco-gltf
