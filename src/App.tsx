@@ -221,9 +221,28 @@ function HomePage() {
       {/* ==== MENU BARU: teaser produk yang akan datang (R2b) ==== */}
       <MenuBaruSection />
 
-      {/* ==== Coming Soon — closing CTA ==== */}
+      {/* ==== Cerita Kami ==== */}
       <section
         id="cerita"
+        className="relative z-10 overflow-hidden border-y border-emas-muda/30 bg-krem-tua/40 py-20 sm:py-28"
+      >
+        <div className="relative mx-auto max-w-3xl px-6 text-center">
+          <span className="inline-block px-3 py-1 mb-4 text-xs uppercase tracking-[0.3em] text-emas-tua border border-emas-muda/60 rounded-full bg-krem-muda/60">
+            Cerita Kami
+          </span>
+
+          <p className="text-base sm:text-lg text-coklat-muda leading-relaxed max-w-2xl mx-auto">
+            Dengan memadukan nilai budaya dan inovasi dalam pengemasan, Karasa tidak hanya
+            menjadi pelaku bisnis kuliner, tetapi juga berperan sebagai brand yang mengangkat
+            kembali makanan tradisional Indonesia dalam bentuk yang lebih relevan, kekinian,
+            dan berkelanjutan.
+          </p>
+        </div>
+      </section>
+
+      {/* ==== Coming Soon — closing CTA ==== */}
+      <section
+        id="coming-soon"
         className="relative z-10 overflow-hidden border-y border-emas-muda/30 bg-krem-tua/40 py-20 sm:py-28"
       >
         <div className="relative mx-auto max-w-3xl px-6 text-center">
