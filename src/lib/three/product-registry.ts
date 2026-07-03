@@ -16,7 +16,7 @@ export const PRODUCTS: readonly Product[] = [
     id: 'lakar-kuah',
     name: 'Lakar Kuah',
     type: '3d',
-    tagline: 'Kerupuk opak dengan kuah santan hangat',
+    tagline: '',
     description:
       'Perpaduan lakar kenyal dengan kuah kaldu gurih, menciptakan sajian hangat yang praktis, mengenyangkan, siap menemani kamu kapanpun dan dimanapun!',
     longDescription:
